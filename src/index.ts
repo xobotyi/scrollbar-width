@@ -29,7 +29,9 @@ export const scrollbarWidth: IScrollbarWidth = (force?: boolean): number | undef
 
   const clientWidth = el.clientWidth;
 
+  // if element still has no width it means DOM is not ready yet
   if (clientWidth === 0) {
+    // remove the element and skip the caching
     document.body.removeChild(el);
     return;
   }
