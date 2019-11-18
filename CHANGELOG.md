@@ -1,3 +1,16 @@
+# [1.1.0](https://github.com/xobotyi/scrollbar-width/compare/v1.0.0...v1.1.0) (2019-11-18)
+
+
+### Bug Fixes
+
+* remove npm cache from travis config; ([1fab1e9](https://github.com/xobotyi/scrollbar-width/commit/1fab1e9c986206751c2275ce93cd7a89c8a80a3d))
+
+
+### Features
+
+* Live example version added to README.md; ([d571839](https://github.com/xobotyi/scrollbar-width/commit/d5718394cc51a5d68cec2d07c68624d0f3c8e897))
+* Readme's header now centered; ([f9761d6](https://github.com/xobotyi/scrollbar-width/commit/f9761d6e772c22c5bfcd5e1a9eb92d2e569a456c))
+
 # 1.0.0 (2019-11-18)
 
 
