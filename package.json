@@ -1,6 +1,6 @@
 {
   "name": "@xobotyi/scrollbar-width",
-  "version": "1.0.0",
+  "version": "1.0.0-dev",
   "description": "Comprehensive and lightweight tool to get browser's scrollbars width.",
   "keywords": [
     "scrollbar",
