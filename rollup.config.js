@@ -21,7 +21,8 @@ export default [
                 file: 'dist/index.min.js',
                 format: "umd",
                 exports: "named",
-                name: "scrollbarWidth"
+                name: "xobotyi",
+                extend: true,
             },
         ],
         plugins: [
