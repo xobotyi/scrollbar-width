@@ -1,0 +1,15 @@
+language: node_js
+os: linux
+cache:
+  yarn: true
+  directories:
+    - ~/.npm
+node_js: 12
+script:
+  - yarn lint
+  - yarn build
+  - npx semantic-release
+matrix:
+  allow_failures: []
+  fast_finish: true
+

@@ -1,0 +1,91 @@
+{
+  "name": "@xobotyi/scrollbar-width",
+  "version": "0.0.0",
+  "description": "Comprehensive and lightweight tool to get browser's scrollbars width.",
+  "keywords": [
+    "scrollbar",
+    "width",
+    "native",
+    "browser",
+    "detect",
+    "scrollbar-width"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xobotyi/scrollbar-width.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xobotyi/scrollbar-width/issues"
+  },
+  "homepage": "https://github.com/xobotyi/scrollbar-width",
+  "author": {
+    "name": "Anton Zinovyev",
+    "url": "https://github.com/xobotyi",
+    "email": "xog3@yandex.ru"
+  },
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "esnext": "dist/index.esnext.js",
+  "types": "dist/index.d.ts",
+  "sideEffects": false,
+  "devDependencies": {
+    "@semantic-release/changelog": "^3.0.5",
+    "@semantic-release/git": "^7.0.18",
+    "@semantic-release/npm": "^5.3.4",
+    "husky": "^3.1.0",
+    "lint-staged": "^9.4.3",
+    "prettier": "^1.19.1",
+    "rimraf": "^3.0.0",
+    "rollup": "^1.27.2",
+    "rollup-plugin-typescript2": "^0.25.2",
+    "semantic-release": "^15.13.31",
+    "terser": "^4.4.0",
+    "tslint": "^5.20.1",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-eslint-rules": "^5.4.0",
+    "tslint-plugin-prettier": "^2.0.1",
+    "typescript": "^3.7.2"
+  },
+  "scripts": {
+    "lint": "tslint 'src/**/*.ts' -t verbose",
+    "lint:fix": "yarn lint --fix",
+    "lint:types": "tsc --noEmit",
+    "build": "rimraf dist && rollup --config && yarn minify",
+    "minify": "terser ./dist/index.min.js -o ./dist/index.min.js -mc pure_funcs=['Object.defineProperty'] --toplevel"
+  },
+  "lint-staged": {
+    "src/**/*.ts": [
+      "tslint --fix -t verbose",
+      "git add"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn lint:types && lint-staged",
+      "pre-push": "yarn lint && rimraf dist && yarn build"
+    }
+  },
+  "release": {
+    "branches": [
+      "master",
+      {
+        "name": "next",
+        "prerelease": "rc"
+      }
+    ],
+    "verifyConditions": [
+      "@semantic-release/changelog",
+      "@semantic-release/npm",
+      "@semantic-release/git"
+    ],
+    "prepare": [
+      "@semantic-release/changelog",
+      "@semantic-release/npm",
+      "@semantic-release/git"
+    ]
+  }
+}

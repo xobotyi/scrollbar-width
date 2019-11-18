@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "sourceMap": false,
+    "removeComments": false,
+    "noImplicitReturns": true,
+    "noUnusedParameters": true,
+    "strictNullChecks": true,
+    "alwaysStrict": true,
+    "declaration": false,
+    "target": "esnext",
+    "module": "esnext"
+  },
+  "include": ["./src/**/*.ts"],
+  "exclude": ["node_modules"]
+}
