@@ -1,18 +1,28 @@
-# @xobotyi/scrollbar-width
-Comprehensive and lightweight tool to get browser's scrollbars width.
+<div align="center">
+    <H1>@xobotyi/scrollbar-width</H1>
+    <p>Comprehensive and lightweight tool to get browser's scrollbars width.</p>
+    <p>
+        <a href="https://www.npmjs.com/package/@xobotyi/scrollbar-width">
+            <img src="https://flat.badgen.net/travis/xobotyi/scrollbar-width" alt="Build status"/>
+        </a>
+        <a href="https://www.npmjs.com/package/@xobotyi/scrollbar-width">
+            <img src="https://flat.badgen.net/npm/v/@xobotyi/scrollbar-width" alt="NPM version"/>
+        </a>
+        <a href="https://www.npmjs.com/package/@xobotyi/scrollbar-width">
+            <img src="https://flat.badgen.net/npm/license/@xobotyi/scrollbar-width" alt="License"/>
+        </a>
+        <a href="https://www.npmjs.com/package/@xobotyi/scrollbar-width">
+            <img src="https://flat.badgen.net/npm/types/@xobotyi/scrollbar-width" alt="Types definition"/>
+        </a>
+    </p>
+    <p>×&nbsp;<strong><a href="https://codesandbox.io/s/xobotyiscrollbar-width-live-demo-bp5no">LIVE EXAMPLE</a></strong>&nbsp;×</p>
+</div>
 
-<br />
+---
 
-[![Build status](https://flat.badgen.net/travis/xobotyi/scrollbar-width)](https://www.npmjs.com/package/@xobotyi/scrollbar-width)
-[![NPM version](https://flat.badgen.net/npm/v/@xobotyi/scrollbar-width)](https://www.npmjs.com/package/@xobotyi/scrollbar-width)
-[![License](https://flat.badgen.net/npm/license/@xobotyi/scrollbar-width)](https://www.npmjs.com/package/@xobotyi/scrollbar-width)
-[![Types definition](https://flat.badgen.net/npm/types/@xobotyi/scrollbar-width)](https://www.npmjs.com/package/@xobotyi/scrollbar-width)
+<div align="center">❤️Please consider starring this project to show your love and support.🙌</div>
 
-<br />
-
-× <strong><a href="https://codesandbox.io/s/xobotyiscrollbar-width-live-demo-bp5no">LIVE EXAMPLE</a></strong> ×
-
-❤️Please consider starring this project to show your love and support.🙌
+---
 
 ## Installation
 ```bash
