@@ -11,7 +11,7 @@ export const scrollbarWidth: IScrollbarWidth = (force?: boolean): number | undef
   }
 
   // return cached value if we have some
-  if (!force && typeof scrollbarWidth.__cache === 'number') {
+  if (force !== true && typeof scrollbarWidth.__cache === 'number') {
     return scrollbarWidth.__cache;
   }
 
