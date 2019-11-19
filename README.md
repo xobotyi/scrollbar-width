@@ -54,7 +54,7 @@ scrollbarWidth(); // for most browsers will return 17 and 0 for SSR environment
 
 This function caches the value to avoid increased resources usage. In case you want to get re-calculated value - pass `true` as first call parameter.
 
->**NOTE:**
+>**NOTE:**  
 >Function will return `undefined` in case being called before the DOM is ready.
 
 
