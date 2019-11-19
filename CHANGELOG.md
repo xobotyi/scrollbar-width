@@ -1,3 +1,11 @@
+## [1.2.1](https://github.com/xobotyi/scrollbar-width/compare/v1.2.0...v1.2.1) (2019-11-19)
+
+
+### Bug Fixes
+
+* Mention that in SSR environment it will return 0; ([0562ef8](https://github.com/xobotyi/scrollbar-width/commit/0562ef809177896b6db8b16f3bfadd4b6b2962a9))
+* Strictly require `true` to recalculate the width; ([d25db0b](https://github.com/xobotyi/scrollbar-width/commit/d25db0b968bce67fe5b27bd92e65c1d71c99ea9f))
+
 # [1.2.0](https://github.com/xobotyi/scrollbar-width/compare/v1.1.1...v1.2.0) (2019-11-19)
 
 
