@@ -4,7 +4,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "description": "Comprehensive and lightweight tool to get browser's scrollbars width.",
+  "description": "A tool to get browser's scrollbars width.",
   "keywords": [
     "scrollbar",
     "width",
