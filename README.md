@@ -49,11 +49,11 @@ After that you will be able to use the function as `xobotyi.scrollbarWidth()`
 ```javascript
 import { scrollbarWidth } from '@xobotyi/scrollbar-width';
 
-scrollbarWidth(); // for most browsers will return 17
+scrollbarWidth(); // for most browsers will return 17 and 0 for SSR environment
 // or undefined if to call it too early [read below]
 ```
 
-This function caches the value to avoid increased resources usage. In case you want to get re-calculated values - pass `true` as first call parameter.
+This function caches the value to avoid increased resources usage. In case you want to get re-calculated value - pass `true` as first call parameter.
 
 >**NOTE:**
 >Function will return `undefined` in case being called before the DOM is ready.
