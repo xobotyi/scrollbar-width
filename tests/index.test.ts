@@ -1,6 +1,6 @@
-import { scrollbarWidth } from "../src/index";
+import { scrollbarWidth } from '../src/index';
 
-const isLinux = navigator.appVersion.indexOf("Linux") != -1;
+const isLinux = navigator.appVersion.indexOf('Linux') != -1;
 
 describe('scrollbarWidth', () => {
   beforeEach(() => {
