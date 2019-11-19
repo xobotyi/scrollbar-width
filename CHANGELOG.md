@@ -1,3 +1,16 @@
+# [1.4.0](https://github.com/xobotyi/scrollbar-width/compare/v1.3.0...v1.4.0) (2019-11-19)
+
+
+### Bug Fixes
+
+* **tests:** Linux detection fix; ([be38927](https://github.com/xobotyi/scrollbar-width/commit/be389270341acd650bd1bd81885dfd027b0626fe))
+* FireFox on linux have SBW of width 16 ([8d10f9b](https://github.com/xobotyi/scrollbar-width/commit/8d10f9b0fd2c1ce198484dbc94a27d0521e19aa2))
+
+
+### Features
+
+* modify travis config to push coverage and release the version only if everything is successful. ([5deec11](https://github.com/xobotyi/scrollbar-width/commit/5deec119ee9eaf771a7cc24c94566b2bbc0d8fdf))
+
 # [1.3.0](https://github.com/xobotyi/scrollbar-width/compare/v1.2.4...v1.3.0) (2019-11-19)
 
 
