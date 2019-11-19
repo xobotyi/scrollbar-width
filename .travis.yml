@@ -24,5 +24,5 @@ script:
   - yarn test
 
 after_success:
-  - npx cat ./coverage/lcov.info | npx codacy-coverage
+  - yarn add -D codacy-coverage && cat ./coverage/lcov.info | codacy-coverage
   - npx semantic-release
