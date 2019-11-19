@@ -14,6 +14,12 @@
         <a href="https://www.npmjs.com/package/@xobotyi/scrollbar-width">
             <img src="https://flat.badgen.net/npm/types/@xobotyi/scrollbar-width" alt="Types definition"/>
         </a>
+        <a href="https://www.npmjs.com/package/@xobotyi/scrollbar-width">
+            <img src="https://flat.badgen.net/codacy/grade/1bc2560a1b614f9595b718169c969b4d" alt="Codacy Code Grade"/>
+        </a>
+        <a href="https://www.npmjs.com/package/@xobotyi/scrollbar-width">
+            <img src="https://flat.badgen.net/codacy/coverage/1bc2560a1b614f9595b718169c969b4d" alt="Tests LOC"/>
+        </a>
     </p>
     <p>×&nbsp;<strong><a href="https://codesandbox.io/s/xobotyiscrollbar-width-live-demo-bp5no">LIVE EXAMPLE</a></strong>&nbsp;×</p>
 </div>
