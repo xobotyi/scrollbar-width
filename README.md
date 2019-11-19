@@ -38,7 +38,8 @@ This lib is written in TypeScript and delivered with both, transpiled and untran
 - `esnext` field is pointing to the ESnext version with ES modules resolution;
 
 
-**OR** you can add it directly to your site via the `<script />` with help of [UNPKG](https://unpkg.com):
+**OR**  
+you can add it directly to your site via the `<script />` with help of [UNPKG](https://unpkg.com):
 ```html
 <script src="https://unpkg.com/@xobotyi/scrollbar-width/dist/index.min.js"/>
 ```
