@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/xobotyi/scrollbar-width/compare/v1.2.1...v1.2.2) (2019-11-19)
+
+
+### Bug Fixes
+
+* shorten the description; ([dc6945a](https://github.com/xobotyi/scrollbar-width/commit/dc6945a717cd6ea22bc1e877a9571d387ea0f4b8))
+
 ## [1.2.1](https://github.com/xobotyi/scrollbar-width/compare/v1.2.0...v1.2.1) (2019-11-19)
 
 
