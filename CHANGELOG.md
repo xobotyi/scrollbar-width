@@ -1,3 +1,10 @@
+## [1.2.3](https://github.com/xobotyi/scrollbar-width/compare/v1.2.2...v1.2.3) (2019-11-19)
+
+
+### Bug Fixes
+
+* newline after NOTE: in README.md ([646153c](https://github.com/xobotyi/scrollbar-width/commit/646153cc3e4fb43122b629739d1ebcd98b0573cf))
+
 ## [1.2.2](https://github.com/xobotyi/scrollbar-width/compare/v1.2.1...v1.2.2) (2019-11-19)
 
 
