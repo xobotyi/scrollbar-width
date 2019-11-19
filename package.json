@@ -39,7 +39,14 @@
     "@semantic-release/changelog": "^3.0.5",
     "@semantic-release/git": "^7.0.18",
     "@semantic-release/npm": "^5.3.4",
+    "@types/jasmine": "^3.4.6",
     "husky": "^3.1.0",
+    "jasmine": "^3.5.0",
+    "karma": "^4.4.1",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-firefox-launcher": "^1.2.0",
+    "karma-jasmine": "^2.0.1",
+    "karma-typescript": "^4.1.1",
     "lint-staged": "^9.4.3",
     "prettier": "^1.19.1",
     "rimraf": "^3.0.0",
@@ -54,9 +61,10 @@
     "typescript": "^3.7.2"
   },
   "scripts": {
-    "lint": "tslint 'src/**/*.ts' -t verbose",
+    "lint": "tslint '{src,tests}/**/*.ts' -t verbose",
     "lint:fix": "yarn lint --fix",
     "lint:types": "tsc --noEmit",
+    "test": "karma start",
     "build": "rimraf dist && rollup --config && yarn minify",
     "minify": "terser ./dist/index.min.js -o ./dist/index.min.js -mc pure_funcs=['Object.defineProperty'] --toplevel"
   },
@@ -69,7 +77,7 @@
   "husky": {
     "hooks": {
       "pre-commit": "yarn lint:types && lint-staged",
-      "pre-push": "yarn lint && rimraf dist && yarn build"
+      "pre-push": "yarn lint:fix && rimraf dist && yarn build && yarn test"
     }
   },
   "release": {
