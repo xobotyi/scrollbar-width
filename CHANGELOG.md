@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/xobotyi/scrollbar-width/compare/v1.4.0...v1.4.1) (2019-11-19)
+
+
+### Bug Fixes
+
+* **coverage:** Fix codacy coverage push; ([b1545af](https://github.com/xobotyi/scrollbar-width/commit/b1545afa2c4c3c6d15fdd6404af5aa9e4d59f649))
+
 # [1.4.0](https://github.com/xobotyi/scrollbar-width/compare/v1.3.0...v1.4.0) (2019-11-19)
 
 
