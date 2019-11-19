@@ -1,6 +1,6 @@
 import { scrollbarWidth } from '../src/index';
 
-const isLinux = navigator.appVersion.indexOf('Linux') !== -1;
+const isLinux = navigator.platform.indexOf('Linux') !== -1;
 const isFirefox = /firefox|iceweasel|fxios/i.test(navigator.userAgent.toLowerCase());
 
 describe('scrollbarWidth', () => {
@@ -16,7 +16,7 @@ describe('scrollbarWidth', () => {
     const res = scrollbarWidth();
 
     expect(typeof res).toBe('number');
-    expect(res).toBe(isLinux ? isFirefox ? 16 : 15 : 17); // have no idea what the values for MacOS
+    expect(res).toBe(isLinux ? (isFirefox ? 16 : 15) : 17); // have no idea what the values for MacOS
   });
 
   it('should return cached value if presented', () => {
@@ -32,6 +32,6 @@ describe('scrollbarWidth', () => {
 
   it('should recalculate and cache value if true passed as first element', () => {
     scrollbarWidth.__cache = 3;
-    expect(scrollbarWidth(true)).toBe(isLinux ? isFirefox ? 16 : 15 : 17);
+    expect(scrollbarWidth(true)).toBe(isLinux ? (isFirefox ? 16 : 15) : 17);
   });
 });
