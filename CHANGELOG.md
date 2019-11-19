@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/xobotyi/scrollbar-width/compare/v1.1.1...v1.2.0) (2019-11-19)
+
+
+### Features
+
+* Add `access: public` in package.json; ([e373d9e](https://github.com/xobotyi/scrollbar-width/commit/e373d9e582b78b2b01f67adb3c1feccb7f573c85))
+
 ## [1.1.1](https://github.com/xobotyi/scrollbar-width/compare/v1.1.0...v1.1.1) (2019-11-19)
 
 
