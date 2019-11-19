@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/xobotyi/scrollbar-width/compare/v1.1.0...v1.1.1) (2019-11-19)
+
+
+### Bug Fixes
+
+* add github plugin to verify stage ([55eb00d](https://github.com/xobotyi/scrollbar-width/commit/55eb00d557565ac891c99c486abe4c4ccb6e6d5a))
+
 # [1.1.0](https://github.com/xobotyi/scrollbar-width/compare/v1.0.0...v1.1.0) (2019-11-18)
 
 
