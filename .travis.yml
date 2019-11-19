@@ -1,23 +1,29 @@
-sudo: required
-dist: trusty
-cache:
-  yarn: true
 language: node_js
 node_js: 12
+
+dist: trusty
+sudo: true
 addons:
   firefox: latest
+  chrome: stable
+
+matrix:
+  fast_finish: true
+
+cache:
+  yarn: true
+
 before_install:
-  # Start a display server where all graphical operations happens in memory
   - export DISPLAY=:99.0
   - sh -e /etc/init.d/xvfb start
+
 script:
   - yarn
   - yarn lint
   - yarn build
   - yarn test
+
+after_success:
   - npx cat ./coverage/lcov.info | npx codacy-coverage
   - npx semantic-release
-matrix:
-  allow_failures: []
-  fast_finish: true
 
