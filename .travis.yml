@@ -26,4 +26,3 @@ script:
 after_success:
   - npx cat ./coverage/lcov.info | npx codacy-coverage
   - npx semantic-release
-
