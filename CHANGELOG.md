@@ -1,3 +1,16 @@
+# [1.3.0](https://github.com/xobotyi/scrollbar-width/compare/v1.2.4...v1.3.0) (2019-11-19)
+
+
+### Bug Fixes
+
+* reconfigure travis to perform tests and push coverage to the codacy; ([cfc5c76](https://github.com/xobotyi/scrollbar-width/commit/cfc5c760a2390aede38f1231e188ec3dfea457ad))
+
+
+### Features
+
+* add tests ([7d920cc](https://github.com/xobotyi/scrollbar-width/commit/7d920cc621cea0124561afa6d25c8a2a398ff646))
+* Added codacy badges (coverage and grade) ([aa723f7](https://github.com/xobotyi/scrollbar-width/commit/aa723f7a58a04f3b067516f27397489993f1ecd3))
+
 ## [1.2.4](https://github.com/xobotyi/scrollbar-width/compare/v1.2.3...v1.2.4) (2019-11-19)
 
 
