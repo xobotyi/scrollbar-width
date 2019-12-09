@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/xobotyi/scrollbar-width/compare/v1.4.1...v1.5.0) (2019-12-09)
+
+
+### Features
+
+* Add extra check of DOM readiness. ([0bf89ef](https://github.com/xobotyi/scrollbar-width/commit/0bf89efbf1344c772f5766f14fc60722c9c077a8))
+
 ## [1.4.1](https://github.com/xobotyi/scrollbar-width/compare/v1.4.0...v1.4.1) (2019-11-19)
 
 
