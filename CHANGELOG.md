@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/xobotyi/scrollbar-width/compare/v1.7.0...v1.8.0) (2020-01-27)
+
+
+### Features
+
+* rework travis config; ([a4f7ff9](https://github.com/xobotyi/scrollbar-width/commit/a4f7ff92eda332051761becab28d0be39c1f8408))
+
 # [1.7.0](https://github.com/xobotyi/scrollbar-width/compare/v1.6.1...v1.7.0) (2020-01-27)
 
 
