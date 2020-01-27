@@ -9,6 +9,9 @@
             <img src="https://flat.badgen.net/npm/v/@xobotyi/scrollbar-width" alt="NPM version"/>
         </a>
         <a href="https://www.npmjs.com/package/@xobotyi/scrollbar-width">
+            <img src="https://flat.badgen.net/npm/dw/@xobotyi/scrollbar-width" alt="NPM weekly downloads"/>
+        </a>
+        <a href="https://www.npmjs.com/package/@xobotyi/scrollbar-width">
             <img src="https://flat.badgen.net/npm/license/@xobotyi/scrollbar-width" alt="License"/>
         </a>
         <a href="https://www.npmjs.com/package/@xobotyi/scrollbar-width">
