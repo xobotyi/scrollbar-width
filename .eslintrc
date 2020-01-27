@@ -1,4 +1,10 @@
 {
   "root": true,
-  "extends": "@xobotyi"
+  "extends": [
+    "@xobotyi/eslint-config/base",
+    "@xobotyi/eslint-config/typescript"
+  ],
+  "rules": {
+    "no-underscore-dangle": "off"
+  }
 }

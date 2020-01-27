@@ -1,10 +1,10 @@
-export interface IScrollbarWidth {
+export interface ScrollbarWidth {
   (force?: boolean): number | undefined;
 
   __cache?: number;
 }
 
-export const scrollbarWidth: IScrollbarWidth = (force?: boolean): number | undefined => {
+export const scrollbarWidth: ScrollbarWidth = (force?: boolean): number | undefined => {
   // safety check for SSR
   /* istanbul ignore next */
   if (!document) {
@@ -17,7 +17,7 @@ export const scrollbarWidth: IScrollbarWidth = (force?: boolean): number | undef
   // any interactivity [not 'loading'] will be okay for us
   /* istanbul ignore next */
   if (!document.body || (document.readyState && document.readyState === 'loading')) {
-    return;
+    return undefined;
   }
 
   // return cached value if we have some
@@ -26,25 +26,27 @@ export const scrollbarWidth: IScrollbarWidth = (force?: boolean): number | undef
   }
 
   const el = document.createElement('div');
-  const style = el.style;
+  const { style } = el;
 
   // for the case of weird css rules where div will not be a block element.
   style.display = 'block';
   style.position = 'absolute';
-  style.width = style.height = '100px';
-  style.left = style.top = '-999px';
+  style.width = '100px';
+  style.height = '100px';
+  style.left = '-999px';
+  style.top = '-999px';
   style.overflow = 'scroll';
 
   document.body.insertBefore(el, null);
 
-  const clientWidth = el.clientWidth;
+  const { clientWidth } = el;
 
   // if element still has no width it means DOM is not ready yet
   /* istanbul ignore next */
   if (clientWidth === 0) {
     // remove the element and skip the caching
     document.body.removeChild(el);
-    return;
+    return undefined;
   }
 
   // clientWidth is the total width of the block - scrollbar width, thus, to get the scrollbar width

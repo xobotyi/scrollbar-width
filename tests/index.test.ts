@@ -1,4 +1,4 @@
-import { scrollbarWidth } from '../src/index';
+import { scrollbarWidth } from '../src';
 
 const isLinux = navigator.platform.indexOf('Linux') !== -1;
 const isFirefox = /firefox|iceweasel|fxios/i.test(navigator.userAgent.toLowerCase());
@@ -16,6 +16,7 @@ describe('scrollbarWidth', () => {
     const res = scrollbarWidth();
 
     expect(typeof res).toBe('number');
+    // eslint-disable-next-line no-nested-ternary
     expect(res).toBe(isLinux ? (isFirefox ? 16 : 15) : 17); // have no idea what the values for MacOS
   });
 
@@ -32,6 +33,7 @@ describe('scrollbarWidth', () => {
 
   it('should recalculate and cache value if true passed as first element', () => {
     scrollbarWidth.__cache = 3;
+    // eslint-disable-next-line no-nested-ternary
     expect(scrollbarWidth(true)).toBe(isLinux ? (isFirefox ? 16 : 15) : 17);
   });
 });
