@@ -40,7 +40,7 @@
     "@semantic-release/git": "^8.0.0",
     "@semantic-release/npm": "^6.0.0",
     "@types/jasmine": "^3.5.1",
-    "@xobotyi/eslint-config": "^1.0.3",
+    "@xobotyi/eslint-config": "^1.0.5",
     "@xobotyi/preset-typescript": "^1.0.0",
     "codacy-coverage": "^3.4.0",
     "eslint": "^6.8.0",
@@ -61,7 +61,7 @@
     "typescript": "^3.7.5"
   },
   "scripts": {
-    "lint": "eslint ./{src,tests}/**/*.ts",
+    "lint": "eslint ./{src,tests}/**/*.ts ./*.{ts,js}",
     "lint:fix": "yarn lint --fix",
     "lint:types": "tsc --noEmit",
     "test": "karma start",
@@ -69,7 +69,11 @@
     "minify": "terser ./dist/index.min.js -o ./dist/index.min.js -mc pure_funcs=['Object.defineProperty'] --toplevel"
   },
   "lint-staged": {
-    "src/**/*.ts": [
+    "./{src,tests}/**/*.ts": [
+      "tslint --fix -t verbose",
+      "git add"
+    ],
+    "./*.{ts,js}": [
       "tslint --fix -t verbose",
       "git add"
     ]
