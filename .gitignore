@@ -4,5 +4,4 @@
 node_modules
 dist
 coverage
-yarn.lock
 package-lock.json

@@ -1,4 +1,4 @@
-import { scrollbarWidth } from '../src';
+import { scrollbarWidth } from '../src/index';
 
 const isLinux = navigator.platform.indexOf('Linux') !== -1;
 const isFirefox = /firefox|iceweasel|fxios/i.test(navigator.userAgent.toLowerCase());
