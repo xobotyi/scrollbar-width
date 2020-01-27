@@ -1,3 +1,17 @@
+# [1.6.0](https://github.com/xobotyi/scrollbar-width/compare/v1.5.0...v1.6.0) (2020-01-27)
+
+
+### Bug Fixes
+
+* TS config now does not conflicts with rollup ([564d523](https://github.com/xobotyi/scrollbar-width/commit/564d523f3f9b5d578cfcbc15b966b59dbda2dd0c))
+* tweak eslint config and fix the code; ([456d726](https://github.com/xobotyi/scrollbar-width/commit/456d72636ded5833a18ab7d5d20e56c9dea120ef))
+
+
+### Features
+
+* get rid of .lock file - not needed here. ([d5415e2](https://github.com/xobotyi/scrollbar-width/commit/d5415e2053b3f2920891379e318a6654ed7171c3))
+* Replace tslint with eslint ([e4f29a2](https://github.com/xobotyi/scrollbar-width/commit/e4f29a2f79b5c0d673c0cfdf7727915d2604c940))
+
 # [1.5.0](https://github.com/xobotyi/scrollbar-width/compare/v1.4.1...v1.5.0) (2019-12-09)
 
 
