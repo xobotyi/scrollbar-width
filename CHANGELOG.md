@@ -1,3 +1,10 @@
+## [1.6.1](https://github.com/xobotyi/scrollbar-width/compare/v1.6.0...v1.6.1) (2020-01-27)
+
+
+### Bug Fixes
+
+* add root files to the linting process; ([48c7e3c](https://github.com/xobotyi/scrollbar-width/commit/48c7e3ce24f4adce1bc6411fece4084d7a0ead3f))
+
 # [1.6.0](https://github.com/xobotyi/scrollbar-width/compare/v1.5.0...v1.6.0) (2020-01-27)
 
 
