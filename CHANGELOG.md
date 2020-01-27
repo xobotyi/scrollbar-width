@@ -1,3 +1,11 @@
+# [1.7.0](https://github.com/xobotyi/scrollbar-width/compare/v1.6.1...v1.7.0) (2020-01-27)
+
+
+### Features
+
+* add weekly downloads badge; ([59647de](https://github.com/xobotyi/scrollbar-width/commit/59647de964f6f87936d61d7f876f518c8b1ff66a))
+* add weekly downloads badge; ([da4a506](https://github.com/xobotyi/scrollbar-width/commit/da4a5063c02c93a72580627b843967071d2b185f))
+
 ## [1.6.1](https://github.com/xobotyi/scrollbar-width/compare/v1.6.0...v1.6.1) (2020-01-27)
 
 
