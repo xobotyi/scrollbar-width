@@ -34,6 +34,7 @@
 ---
 
 ## Installation
+
 ```bash
 npm install @xobotyi/scrollbar-width
 # or via yarn
@@ -55,6 +56,7 @@ you can add it directly to your site via the `<script />` with help of [UNPKG](h
 After that you will be able to use the function as `xobotyi.scrollbarWidth()`
 
 ## Usage
+
 ```javascript
 import { scrollbarWidth } from '@xobotyi/scrollbar-width';
 
@@ -69,6 +71,7 @@ This function caches the value to avoid increased resources usage. In case you w
 
 
 ## Related projects
+
 - [react-scrollbars-custom](https://www.npmjs.com/package/react-scrollbars-custom) &mdash; The best React custom scrollbars component. Allows you to customise scrollbars as you like it, crossbrowser!
 - [zoom-level](https://www.npmjs.com/package/zoom-level) &mdash; A comprehensive cross-browser package that allow you to determine page's and element's zoom level.
 - [@xobotyi/should-reverse-rtl-scroll](https://www.npmjs.com/package/@xobotyi/should-reverse-rtl-scroll) &mdash; A tool detecting if RTL scroll value should be negative.
