@@ -23,9 +23,6 @@ jobs:
       after_script:
         - yarn add -D codacy-coverage
         - cat ./coverage/lcov.info | codacy-coverage
-
-    - stage: release semantic-release
-      script: skip
       deploy:
         skip_cleanup: true
         provider: script
