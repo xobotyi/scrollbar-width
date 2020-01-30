@@ -1,3 +1,10 @@
+## [1.8.1](https://github.com/xobotyi/scrollbar-width/compare/v1.8.0...v1.8.1) (2020-01-30)
+
+
+### Bug Fixes
+
+* make only `dist` directory appear in package. ([adf19e6](https://github.com/xobotyi/scrollbar-width/commit/adf19e6e0338becf94f7fe5972a9659721e6ee13))
+
 # [1.8.0](https://github.com/xobotyi/scrollbar-width/compare/v1.7.0...v1.8.0) (2020-01-27)
 
 
