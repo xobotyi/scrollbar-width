@@ -1,3 +1,10 @@
+## [1.8.2](https://github.com/xobotyi/scrollbar-width/compare/v1.8.1...v1.8.2) (2020-01-30)
+
+
+### Bug Fixes
+
+* tweak the travis build (build missing in dist). ([77b4db3](https://github.com/xobotyi/scrollbar-width/commit/77b4db32180576e79f6c0a2d162cef25b627a0d6))
+
 ## [1.8.1](https://github.com/xobotyi/scrollbar-width/compare/v1.8.0...v1.8.1) (2020-01-30)
 
 
