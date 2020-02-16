@@ -1,3 +1,16 @@
+# [1.9.0](https://github.com/xobotyi/scrollbar-width/compare/v1.8.2...v1.9.0) (2020-02-16)
+
+
+### Bug Fixes
+
+* added blank spaces after headings; ([99da435](https://github.com/xobotyi/scrollbar-width/commit/99da435376b7a91c284e1f4dc35eff02694383d5))
+* lint-staged commands been using the tslint; ([72810b9](https://github.com/xobotyi/scrollbar-width/commit/72810b9c3b039198187b2067d482d37871555247))
+
+
+### Features
+
+* terser now minifies all the code via rollup plugin; ([3596475](https://github.com/xobotyi/scrollbar-width/commit/3596475b903d0523c960a011e946480718d11382))
+
 ## [1.8.2](https://github.com/xobotyi/scrollbar-width/compare/v1.8.1...v1.8.2) (2020-01-30)
 
 
