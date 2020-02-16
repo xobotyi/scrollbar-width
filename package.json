@@ -55,9 +55,9 @@
     "prettier": "^1.19.1",
     "rimraf": "^3.0.0",
     "rollup": "^1.30.0",
+    "rollup-plugin-terser": "^5.2.0",
     "rollup-plugin-typescript2": "^0.26.0",
     "semantic-release": "^16.0.3",
-    "terser": "^4.6.3",
     "typescript": "^3.7.5"
   },
   "scripts": {
@@ -65,8 +65,7 @@
     "lint:fix": "yarn lint --fix",
     "lint:types": "tsc --noEmit",
     "test": "karma start",
-    "build": "rimraf dist && rollup --config && yarn minify",
-    "minify": "terser ./dist/index.min.js -o ./dist/index.min.js -mc pure_funcs=['Object.defineProperty'] --toplevel",
+    "build": "rimraf dist && rollup --config",
     "semantic-release": "semantic-release"
   },
   "lint-staged": {

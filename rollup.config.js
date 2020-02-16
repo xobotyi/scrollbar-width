@@ -1,4 +1,5 @@
-import ts2 from 'rollup-plugin-typescript2';
+import ts from 'rollup-plugin-typescript2';
+import { terser } from 'rollup-plugin-terser';
 import pkg from './package.json';
 
 const input = './src/index.ts';
@@ -26,14 +27,16 @@ export default [
       },
     ],
     plugins: [
-      ts2({
+      ts({
         clean: true,
         tsconfigOverride: {
           compilerOptions: {
+            module: 'esnext',
             target: 'es5',
           },
         },
       }),
+      terser(),
     ],
   },
   {
@@ -43,15 +46,18 @@ export default [
       format: 'esm',
     },
     plugins: [
-      ts2({
+      ts({
         clean: true,
         tsconfigOverride: {
           compilerOptions: {
+            module: 'esnext',
+            target: 'esnext',
             declaration: true,
             declarationDir: 'dist',
           },
         },
       }),
+      terser(),
     ],
   },
 ];
