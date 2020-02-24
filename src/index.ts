@@ -7,7 +7,7 @@ export interface ScrollbarWidth {
 export const scrollbarWidth: ScrollbarWidth = (force?: boolean): number | undefined => {
   // safety check for SSR
   /* istanbul ignore next */
-  if (!document) {
+  if (typeof document === 'undefined') {
     return 0;
   }
 
