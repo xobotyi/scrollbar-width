@@ -1,3 +1,10 @@
+## [1.9.3](https://github.com/xobotyi/scrollbar-width/compare/v1.9.2...v1.9.3) (2020-02-24)
+
+
+### Bug Fixes
+
+* readme fix; ([35902e0](https://github.com/xobotyi/scrollbar-width/commit/35902e085f6007954b552ce96bde0c342a0b4a4e))
+
 ## [1.9.2](https://github.com/xobotyi/scrollbar-width/compare/v1.9.1...v1.9.2) (2020-02-24)
 
 
