@@ -1,3 +1,10 @@
+## [1.9.2](https://github.com/xobotyi/scrollbar-width/compare/v1.9.1...v1.9.2) (2020-02-24)
+
+
+### Bug Fixes
+
+* add clarification about the cache as promised in issue [#2](https://github.com/xobotyi/scrollbar-width/issues/2); ([944436f](https://github.com/xobotyi/scrollbar-width/commit/944436f421d01abe1bc5c17cc6ebdefd9c9d97a7))
+
 ## [1.9.1](https://github.com/xobotyi/scrollbar-width/compare/v1.9.0...v1.9.1) (2020-02-24)
 
 
