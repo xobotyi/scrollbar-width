@@ -1,3 +1,10 @@
+## [1.9.1](https://github.com/xobotyi/scrollbar-width/compare/v1.9.0...v1.9.1) (2020-02-24)
+
+
+### Bug Fixes
+
+* adjusting document check for SSR ([bd68002](https://github.com/xobotyi/scrollbar-width/commit/bd68002f7b247d49a2af02342e927ef08328c998))
+
 # [1.9.0](https://github.com/xobotyi/scrollbar-width/compare/v1.8.2...v1.9.0) (2020-02-16)
 
 
