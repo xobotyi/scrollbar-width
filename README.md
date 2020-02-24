@@ -69,6 +69,9 @@ This function caches the value to avoid increased resources usage. In case you w
 >**NOTE:**  
 >Function will return `undefined` in case being called before the DOM is ready.
 
+#### One more clarification
+This function has inner cache due to scrollbars width is not intended to be changed since initial call, but it can in case you toggle the device emulation.  
+If you need function to recalculate the width, set `scrollbarWidth.__cache` to `undefined` and next call will perform return the fresh value.
 
 ## Related projects
 
