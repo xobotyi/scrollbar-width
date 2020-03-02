@@ -1,3 +1,10 @@
+## [1.9.4](https://github.com/xobotyi/scrollbar-width/compare/v1.9.3...v1.9.4) (2020-03-02)
+
+
+### Bug Fixes
+
+* **lint:** rename interface to pass linting; ([a81601b](https://github.com/xobotyi/scrollbar-width/commit/a81601be0b19427d9024d9da149859d18051c79f))
+
 ## [1.9.3](https://github.com/xobotyi/scrollbar-width/compare/v1.9.2...v1.9.3) (2020-02-24)
 
 
