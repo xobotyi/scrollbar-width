@@ -1,10 +1,10 @@
-export interface ScrollbarWidth {
+export interface IScrollbarWidth {
   (force?: boolean): number | undefined;
 
   __cache?: number;
 }
 
-export const scrollbarWidth: ScrollbarWidth = (force?: boolean): number | undefined => {
+export const scrollbarWidth: IScrollbarWidth = (force?: boolean): number | undefined => {
   // safety check for SSR
   /* istanbul ignore next */
   if (typeof document === 'undefined') {
