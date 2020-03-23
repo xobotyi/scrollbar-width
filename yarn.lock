@@ -3850,9 +3850,9 @@ karma-jasmine@^3.1.0:
     jasmine-core "^3.5.0"
 
 karma-typescript@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/karma-typescript/-/karma-typescript-5.0.0.tgz#8c3c776c3c304aefd88b3daa2f54f5c51cb3b938"
-  integrity sha512-O8pQNKqbykAc20vjc1hd0CmIDycjxNAopK9ZADfG1ca7l2NA8M8HEnWDUxX2Q8pnsOipFkdLRRU3rogzdLufFA==
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/karma-typescript/-/karma-typescript-5.0.1.tgz#9caf1bc4aa416c8860ed32f8e452397472d7fb64"
+  integrity sha512-/AqfeOODqqtB145Lm3Kbx8o05BXxSgSS7WckxYgehkz1oA0/9pdpGRm8VlMqI7UXoLg/YrpZoIztIxpL7Jls/w==
   dependencies:
     acorn "^7.1.0"
     acorn-walk "^7.0.0"
