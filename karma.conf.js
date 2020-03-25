@@ -1,4 +1,4 @@
-module.exports = cfg => {
+module.exports = (cfg) => {
   cfg.set({
     browsers: ['ChromeHeadless', 'Firefox'],
     singleRun: true,
