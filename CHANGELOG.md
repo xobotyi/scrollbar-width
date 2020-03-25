@@ -1,3 +1,10 @@
+## [1.9.5](https://github.com/xobotyi/scrollbar-width/compare/v1.9.4...v1.9.5) (2020-03-25)
+
+
+### Bug Fixes
+
+* fix lint errors. ([c9a711d](https://github.com/xobotyi/scrollbar-width/commit/c9a711dc4cfe83958daa7dd00c367d08a19d30e8))
+
 ## [1.9.4](https://github.com/xobotyi/scrollbar-width/compare/v1.9.3...v1.9.4) (2020-03-02)
 
 
