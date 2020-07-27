@@ -3975,9 +3975,9 @@ jasmine-core@^3.5.0, jasmine-core@~3.6.0:
   integrity sha512-8uQYa7zJN8hq9z+g8z1bqCfdC8eoDAeVnM5sfqs7KHv9/ifoJ500m018fpFc7RDaO6SWCLCXwo/wPSNcdYTgcw==
 
 jasmine@^3.5.0:
-  version "3.6.0"
-  resolved "https://registry.yarnpkg.com/jasmine/-/jasmine-3.6.0.tgz#2e98435d6de21415b938a414e7f02574ae162253"
-  integrity sha512-9PSggisk7ZKMGDBjky0wHq4vG7SdWWSBDKF2LkikG97mFgKjzPytl3jIZERsWRI8nuGZ5JCaQIEEVS0De61yGA==
+  version "3.6.1"
+  resolved "https://registry.yarnpkg.com/jasmine/-/jasmine-3.6.1.tgz#a20456b309a669b547a3c24bb2120f16f70cfc65"
+  integrity sha512-Jqp8P6ZWkTVFGmJwBK46p+kJNrZCdqkQ4GL+PGuBXZwK1fM4ST9BizkYgIwCFqYYqnTizAy6+XG2Ej5dFrej9Q==
   dependencies:
     fast-glob "^2.2.6"
     jasmine-core "~3.6.0"
