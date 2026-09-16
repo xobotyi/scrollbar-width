@@ -4,7 +4,6 @@ about: Create a report if you having any problems using the package
 title: ''
 labels: ''
 assignees: ''
-
 ---
 
 **What is the current behavior?**
@@ -13,8 +12,9 @@ assignees: ''
 
 **What is the expected behavior?**
 
-**A little about versions:**  
-- _OS_: 
-- _Browser (vendor and version)_: 
-- _`@xobotyi/scrollbar-width`_: 
+**A little about versions:**
+
+- _OS_:
+- _Browser (vendor and version)_:
+- _`@xobotyi/scrollbar-width`_:
 - _Did this worked in the previous package version?_
