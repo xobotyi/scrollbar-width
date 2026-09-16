@@ -1,30 +1,18 @@
 <div align="center">
-    <H1>@xobotyi/scrollbar-width</H1>
-    <p>A tool to get browser's scrollbars width.</p>
-    <p>
-        <a href="https://www.npmjs.com/package/@xobotyi/scrollbar-width">
-            <img src="https://flat.badgen.net/travis/xobotyi/scrollbar-width" alt="Build status"/>
-        </a>
-        <a href="https://www.npmjs.com/package/@xobotyi/scrollbar-width">
-            <img src="https://flat.badgen.net/npm/v/@xobotyi/scrollbar-width" alt="NPM version"/>
-        </a>
-        <a href="https://www.npmjs.com/package/@xobotyi/scrollbar-width">
-            <img src="https://flat.badgen.net/npm/dw/@xobotyi/scrollbar-width" alt="NPM weekly downloads"/>
-        </a>
-        <a href="https://www.npmjs.com/package/@xobotyi/scrollbar-width">
-            <img src="https://flat.badgen.net/npm/license/@xobotyi/scrollbar-width" alt="License"/>
-        </a>
-        <a href="https://www.npmjs.com/package/@xobotyi/scrollbar-width">
-            <img src="https://flat.badgen.net/npm/types/@xobotyi/scrollbar-width" alt="Types definition"/>
-        </a>
-        <a href="https://www.npmjs.com/package/@xobotyi/scrollbar-width">
-            <img src="https://flat.badgen.net/codacy/grade/1bc2560a1b614f9595b718169c969b4d" alt="Codacy Code Grade"/>
-        </a>
-        <a href="https://www.npmjs.com/package/@xobotyi/scrollbar-width">
-            <img src="https://flat.badgen.net/codacy/coverage/1bc2560a1b614f9595b718169c969b4d" alt="Tests LOC"/>
-        </a>
-    </p>
-    <p>×&nbsp;<strong><a href="https://codesandbox.io/s/xobotyiscrollbar-width-live-demo-bp5no">LIVE EXAMPLE</a></strong>&nbsp;×</p>
+
+# @xobotyi/scrollbar-width
+
+A tool to get browser's scrollbars width.
+
+[![NPM Version](https://flat.badgen.net/npm/v/@xobotyi/scrollbar-width)](https://www.npmjs.com/package/@xobotyi/scrollbar-width)
+[![NPM Downloads](https://flat.badgen.net/npm/dm/@xobotyi/scrollbar-width)](https://www.npmjs.com/package/@xobotyi/scrollbar-width)
+[![NPM Dependents](https://img.shields.io/librariesio/dependents/npm/@xobotyi/scrollbar-width?style=flat-square)](https://www.npmjs.com/package/@xobotyi/scrollbar-width)
+[![Build](https://img.shields.io/github/actions/workflow/status/xobotyi/scrollbar-width/ci.yml?branch=master&style=flat-square)](https://github.com/xobotyi/scrollbar-width/actions/workflows/ci.yml)
+[![Coverage](https://flat.badgen.net/codecov/c/github/xobotyi/scrollbar-width)](https://app.codecov.io/gh/xobotyi/scrollbar-width)
+[![Types](https://flat.badgen.net/npm/types/@xobotyi/scrollbar-width)](https://www.npmjs.com/package/@xobotyi/scrollbar-width)
+
+×&nbsp;**[LIVE EXAMPLE](https://codesandbox.io/s/xobotyiscrollbar-width-live-demo-bp5no)**&nbsp;×
+
 </div>
 
 ---
@@ -42,28 +30,27 @@ yarn add @xobotyi/scrollbar-width
 ```
 
 _INSTALLATION NOTE:_  
-This lib is written in TypeScript and delivered with both, transpiled and untranspiled ES versions:
-
-- `main` field of package.json is pointing to transpiled ES5-compatible version with CJS modules resolution;
-- `module` field is pointing to transpiled ES5-compatible version with ES modules resolution;
-- `esnext` field is pointing to the ESnext version with ES modules resolution;
+The package is published as ES modules only, targets ES2022 and ships its own type definitions.
 
 **OR**  
-you can add it directly to your site via the `<script />` with help of [UNPKG](https://unpkg.com):
+you can add it directly to your site via a module script with help of [UNPKG](https://unpkg.com):
 
 ```html
-<script src="https://unpkg.com/@xobotyi/scrollbar-width/dist/index.min.js" />
-```
+<script type="module">
+	import {scrollbarWidth} from 'https://unpkg.com/@xobotyi/scrollbar-width';
 
-After that you will be able to use the function as `xobotyi.scrollbarWidth()`
+	console.log(scrollbarWidth());
+</script>
+```
 
 ## Usage
 
 ```javascript
 import {scrollbarWidth} from '@xobotyi/scrollbar-width';
 
-scrollbarWidth(); // for most browsers will return 17 and 0 for SSR environment
-// or undefined if to call it too early [read below]
+scrollbarWidth(); // 15-17 in desktop browsers with classic scrollbars, 0 where the
+// platform draws overlay scrollbars [macOS, most mobile browsers] and 0 in SSR
+// environment, or undefined if to call it too early [read below]
 ```
 
 This function caches the value to avoid increased resources usage. In case you want to get re-calculated value - pass `true` as first call parameter.
