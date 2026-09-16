@@ -4,7 +4,6 @@ about: Have an idea? Great! Let us know, maybe we`ve been waiting only for you =
 title: ''
 labels: ''
 assignees: ''
-
 ---
 
 **Is your feature request related to a problem? Please describe.**

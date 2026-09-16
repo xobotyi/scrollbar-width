@@ -1,12 +1,22 @@
 {
-  "extends": "@xobotyi/preset-typescript/tsconfig.json",
-  "compilerOptions": {
-    "sourceMap": false,
-    "resolveJsonModule": false,
-    "target": "ESNext",
-    "module": "ESNext"
-  },
-  "include": [
-    "./src/**/*.ts"
-  ]
+	"compilerOptions": {
+		"module": "NodeNext",
+		"moduleResolution": "NodeNext",
+		"target": "ES2022",
+		"lib": ["ES2022", "DOM"],
+		"types": ["node"],
+		"strict": true,
+		"noUncheckedIndexedAccess": true,
+		"exactOptionalPropertyTypes": true,
+		"verbatimModuleSyntax": true,
+		"erasableSyntaxOnly": true,
+		"skipLibCheck": true,
+		"forceConsistentCasingInFileNames": true,
+		"sourceMap": true,
+		"declaration": true,
+		"outDir": "./dist",
+		"noEmit": true
+	},
+	"exclude": ["node_modules", "dist"],
+	"include": ["**/*.ts"]
 }

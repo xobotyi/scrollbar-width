@@ -40,6 +40,7 @@ npm install @xobotyi/scrollbar-width
 # or via yarn
 yarn add @xobotyi/scrollbar-width
 ```
+
 _INSTALLATION NOTE:_  
 This lib is written in TypeScript and delivered with both, transpiled and untranspiled ES versions:
 
@@ -47,18 +48,19 @@ This lib is written in TypeScript and delivered with both, transpiled and untran
 - `module` field is pointing to transpiled ES5-compatible version with ES modules resolution;
 - `esnext` field is pointing to the ESnext version with ES modules resolution;
 
-
 **OR**  
 you can add it directly to your site via the `<script />` with help of [UNPKG](https://unpkg.com):
+
 ```html
-<script src="https://unpkg.com/@xobotyi/scrollbar-width/dist/index.min.js"/>
+<script src="https://unpkg.com/@xobotyi/scrollbar-width/dist/index.min.js" />
 ```
+
 After that you will be able to use the function as `xobotyi.scrollbarWidth()`
 
 ## Usage
 
 ```javascript
-import { scrollbarWidth } from '@xobotyi/scrollbar-width';
+import {scrollbarWidth} from '@xobotyi/scrollbar-width';
 
 scrollbarWidth(); // for most browsers will return 17 and 0 for SSR environment
 // or undefined if to call it too early [read below]
@@ -66,10 +68,11 @@ scrollbarWidth(); // for most browsers will return 17 and 0 for SSR environment
 
 This function caches the value to avoid increased resources usage. In case you want to get re-calculated value - pass `true` as first call parameter.
 
->**NOTE:**  
->Function will return `undefined` in case being called before the DOM is ready.
+> **NOTE:**  
+> Function will return `undefined` in case being called before the DOM is ready.
 
 #### One more clarification
+
 This function has inner cache due to scrollbars width is not intended to be changed since initial call, but it can in case you toggle the device emulation.  
 If you need function to recalculate the width call it with `true` parameter and get new value or set `scrollbarWidth.__cache` to `undefined` and next call will return the fresh value.
 
